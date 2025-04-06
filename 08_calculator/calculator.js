@@ -1,25 +1,40 @@
-const add = function() {
-	
+//  npm test calculator.spec.js 
+const add = function (a, b) {
+
+  const result = a + b;
+  return result;
 };
 
-const subtract = function() {
-	
-};
-
-const sum = function() {
-	
-};
-
-const multiply = function() {
+const subtract = function (a, b) {
+  const result = a - b;
+  return result;
 
 };
 
-const power = function() {
-	
+const sum = function (array) {
+  let total = 0;
+  for (let i = 0; i < array.length; i++) {
+    total += array[i];
+  }
+  return total;
 };
 
-const factorial = function() {
-	
+const multiply = function (array) {
+  let total = 1;
+  for (let i = 0; i < array.length; i++) {
+    total = total * array[i];
+  }
+  return total;
+
+
+};
+
+const power = function (a, b) {
+
+};
+
+const factorial = function () {
+
 };
 
 // Do not edit below this line
